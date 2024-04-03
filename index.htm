@@ -1,0 +1,128 @@
+<!DOCTYPE html>          <!--This tag tell to the browser that which versions of html we are using-->
+<html lang="en">           <!--This tag is basically tells about the lang of the website.-->
+                           <!--<Html>It is the root of a html document-->
+<head>                   <!--it contain the informaion about the html document-->              
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's learn HTMl</title>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        img{
+            height:400px;
+            width:400px;
+            border-radius:50%;
+        }
+    </style>
+</head>
+<body>                        <!--whch we have to display on a webpage-->
+    <h1>Let's Learn Html Fundamentals: </h1>
+    <a href="./internet.htm" target="blank">How does the internet work?</a><br/>
+    <a href="./website.htm" target="blank">How does the websites work?</a><br/>
+    <h2>HTML</h2>
+    <p>Html stand for hypertext Markup language.
+        where Hypertext is the text which contains links to the text.
+        Markup language means it is a way which gives the instruction to a computer about how the content should 
+        be organised and displayed.
+    </p>
+    <p><b>History of HTML:</b>The concept of hyperlink was introduced in 1960's by Ted Nelson, and after 20 years www introduced by tim berners lee, who has also created the first website.</p>
+    <p>currently we are usign html of verrsion 5, which means html5, which contains some additonal tag like sementic tags which contains video , audio tags and many useful tags.</p>
+
+    <h2>HTML SYNTAX</h2>
+    <p>element: combination of opening tags and content and closing tag are called as element.</p>
+    <p>tags: are basically used to speciffy the funciton which we want to use.</p>
+    <p>we have to write our codes in any IDE(let say vS code), for using html file we use .htm extension.
+        earlier when we use ms-docs there will be a rule to use only three letters as its extension.
+    </p>
+    <p>we have to always use index.html as our homepage, which is default.</p>
+    <h2>HTML ATTRIBUTES</h2>
+    <p>attributes are used along with html tags which defines the characterstics of an elememt.</p>
+    <p>attributes provides additional informaion about the elements.</p>
+    <p><b>Note:Html tag is case-insenstive </b>we can install (auto close tag) in vs code extension to use fastly.</p>
+
+    <h2>HTML HEADING</h2>
+    <p>there are 6 ways through which we can represent heading.</p>
+    <p>heading tag are used to speciffy heading.</p>
+    <p>h1 is considered as larger heading. it sizes are typecally 24px to 36px</p>
+    <p><b>Note:we have to focurs on write h1 heading atleast once in our webpage.</b></p>
+    <p><b>we have to follow to write the heading sequentially with proper heraichaal manner.</b></p>
+    <p>heading are displayed from h1 to h6, where h1 is larger heading and h6 is smaller heading.</p>
+
+    <h2>HTML PARAGRAPH</h2>
+    <p>paragrap tag is used to write paragraph in our webpage.browser automaticaly add a single blank line before and after p tag.</p>
+    <b><p>Note: we can't able to nest any ohter tag inside p tag.As p tag is a block level element(we can do by using inline element)</p></b>
+
+    <h2>SELF-CLOSING TAGS</h2>
+    <p>these are the tages which don't have their own content.</p>
+    <p>eg. are link image, break, horizontal line tags.</p>
+    <h2>TEXT-FORMATING</h2>
+    <p>➡️for bold and italic: we use <strong>strong</strong>and <em>em</em></p>
+    <p>➡️for underline and strikethrough we use <u>u</u> and <s>strikethrough(s)</s></p>
+    <p>➡️for subscript and superscript we use sub and sup tags eg. H<sub>2</sub>O  and  MC<sup>2</sup>.</p>
+    <p>➡️for preformatted webpage (according to our desire space) we use pre tag.
+          <pre>for eg:
+            The pricipal 
+            Divine Sainik School
+            Lahartara B.L.W. Road, varanasi
+
+            Respected Ma'am
+            i am vivek chaurasiya of class 12<sup>th</sup>A3 would like to take a leave for two days
+            for the purpose of "health-checkup".kindly grant me a leave for 2 days.
+             
+
+            Thanking you
+            your's obediently
+            vivek chaurasiya
+            Roll no:.14
+            Date:04/03/2020
+
+
+            parent sign                                principal sign
+
+          </pre>
+    </p>
+    <p> kbd tags are the keyboard tags which is used to describe the keyboard control,, eg.<kbd>ctrl+c</kbd></p>
+    <p>abbreviation tag(abbr) tag is used to write any full forms with a dotted lines.
+        eg. <abbr title="World Health organization">WHO</abbr> is an international organization.
+    </p>
+    <p><mark>mark tags</mark> are used to mark any word using mark tag.</p>
+    <p>for deleting <del>any words</del> we can use del tag (also called as strikethrough-s)</p>
+
+    <b><p>For using differnt fonts; we can use GOOGLE FONTS.</p></b>
+
+    <h2>HTML ANCHOR TAG</h2>
+    
+    <ul><li><p>anchor tag(a) are the hyperlink which is used to link the link from one page to another.<br/>
+  (a hypertextref(href)= "URL" target ="blank" )visit for next page (/a)</p></li> <br/>
+
+   <li>rel:rel describe the relationship between the current page and the linked pages.</li>
+   <li>title:provides additional informatin when howering the links. <br/>
+    eg. (a href="./internet.htm" target="blank" title="click here for learning internet")Internet(/a)
+   </li>
+
+   <li>class and identity: id must be unique where as class can be anything</li>
+   <li>download:for downloading any file we can simply use :<br/>
+    <a href="./VIVEK CHAURASIYA_Certificate.pdf" download>Download my internship certificate</a><br/><br>
+    (a href="./Vivek.pdf" download) Download (/a)
+   </li>
+
+   <li>for creating any html link which redirect to user e-mail:<br/><br/>
+        (a href="<u>mailto:</u>vwakechaurasiya@gmail.com")Send e-mail(/a)
+    </li>
+
+    <li>for creating a link that directly linked to phone call:<br/><br/>
+    (a href="tel:++91 665676454")Phone no(/a) . (if we want watsapp group we add watsapp group link in href.)
+</li>
+<br/>
+<b>Note: the links must be enclosed with single quotes or doubles quotes. Mixing both types of quotes is wrong.</b>
+    </ul>
+
+<h2>HTML ENTITIES</h2>
+<p>html entities are the codss used to represent the special symbol, symbol that are reserved in html</p>
+<img  src="./html entities.png" alt="html-entities"/>
+
+
+</body>
+
+</html>
